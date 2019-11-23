@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息</title>
+
+</head>
+<body>
+    <table border="1px" align="center"><!--展示表格属性 border 加框架 align center 居中效果-->
+        <thead><!--表头-->
+        <tr>
+            <th>姓名</th><!--行列不用担心尺寸问题，可以自动扩充-->
+            <th>性别</th> <!--th代表表头属性，会加粗和居中-->
+            <th>身高</th>
+            <th>体重</th>
+        </tr>
+        </thead>
+        <tbody><!--表身-->
+        <tr>
+            <td>魏沼辛</td> <!--td代表单元格普通元素-->
+            <td>女</td>
+            <td>130cm</td>
+            <td>100kg</td>
+        </tr>
+        </tbody>
+        <tfoot><!--表脚-->
+        <td>万泽宇</td> <!--td代表单元格普通元素-->
+        <td>男</td>
+        <td>190cm</td>
+        <td>80kg</td>
+        </tfoot>
+    </table>
+<br><!--换行符-->
+<table border="1px">
+    <tr>
+        <th rowspan="2">aaaa</th><!--rowspan 代表合并列单元格，“”里面的是合并数量-->
+        <th>aaaa</th>
+        <th>aaaa</th>
+        <th>aaaa</th>
+    </tr>
+    <tr>
+        <td>bbbb</td>
+        <td colspan="2">bbbb</td> <!--colspan代表合并行单元格，“”里面的是合并单元格的数量-->
+        <td>bbbb</td>
+        <td>bbbb</td>
+    </tr>
+    <tr>
+        <td>bbbb</td>
+        <td>bbbb</td>
+        <td>bbbb</td>
+        <td>bbbb</td>
+    </tr>
+</table>
+
+</body>
+</html>
